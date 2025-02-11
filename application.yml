@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-repo/your-app.git  # Change to your Git repo
+    repoURL: https://github.com/haleem00/argocd-app-deploy.git  # Change to your Git repo
     targetRevision: HEAD  # Change branch/tag if needed
-    path: manifests  # Change to the correct directory in your repo
+    path: Kubernetes  # Change to the correct directory in your repo
   destination:
     server: https://kubernetes.default.svc
     namespace: my-app  # Change to your desired namespace
